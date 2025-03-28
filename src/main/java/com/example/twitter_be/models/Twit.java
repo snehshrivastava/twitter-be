@@ -1,5 +1,7 @@
 package com.example.twitter_be.models;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -39,4 +41,6 @@ public class Twit {
     private boolean isReply;
 
     private boolean isRetwit;
+
+    private LocalDateTime createdAt;
 }
